@@ -1,10 +1,15 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const reversed = word.split('').reverse().join('');
+  return word === reversed;
 }
 
 /* 
   Add your pseudocode here
-*/
+*/// Step 1: Take the input word
+// Step 2: Reverse the word
+// Step 3: Compare the original word with the reversed one
+// Step 4: If they match, return true (it's a palindrome)
+//         If not, return false
 
 /*
   Add written explanation of your solution here
